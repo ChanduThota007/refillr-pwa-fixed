@@ -1,0 +1,51 @@
+{
+  "packageId": "app.vercel.refillr_kitchen_buddy.twa",
+  "host": "refillr-kitchen-buddy.vercel.app",
+  "name": "ReFillr",
+  "launcherName": "ReFillr",
+  "display": "standalone",
+  "themeColor": "#388E3C",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#C8E6C9",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://refillr-kitchen-buddy.vercel.app/icon-512.png",
+  "maskableIconUrl": "https://refillr-kitchen-buddy.vercel.app/icon-512.png",
+  "monochromeIconUrl": "https://refillr-kitchen-buddy.vercel.app/icon-mono.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "D:\\refillr-kitchen-buddy-main\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://refillr-kitchen-buddy.vercel.app/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://refillr-kitchen-buddy.vercel.app/",
+  "minSdkVersion": 21,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "appVersion": "1"
+}
