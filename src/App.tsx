@@ -1,8 +1,3 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -17,8 +12,6 @@ import { EditRefill } from "./pages/EditRefill";
 import { Settings } from "./pages/Settings";
 import { Analytics } from "./pages/Analytics";
 import NotFound from "./pages/NotFound";
-import { useRefillrStore } from "@/store/useRefillrStore";
-import { useEffect } from "react";
 
 import { useRefillrStore } from "@/store/useRefillrStore";
 import { useToast } from "@/components/ui/use-toast";
@@ -32,7 +25,6 @@ const App = () => {
   const { canInstall, promptInstall } = usePwaInstall();
 
   useEffect(() => {
-    // Perform daily subtraction on app load
     performDailySubtraction();
   }, [performDailySubtraction]);
 
@@ -76,4 +68,3 @@ const App = () => {
 };
 
 export default App;
-// force redeploy for manifest
